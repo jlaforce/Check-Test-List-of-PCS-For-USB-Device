@@ -3,7 +3,9 @@ This script uses a selected Text file to use CIM to query Multiple PCs in the ef
 
 # Requirements - you is admin, or you nicely ask an admin. Also, you need to have your ExecutionPolicy set from "Disabled" to .... something. 
 
-# !NOTE == I also included some scripting for Microsofts Sysinternals PSexec. The reason why it's not included is because in some strict environments, you need to make sure to get your permissions and blesssings before use ::i.e. - Good security practice::. The reason for the other two lines is to turn off the firewall. TURNING OFF THE FIREWALL ::had to cap it, just so ya know::, is most enterprise environments, if you are utilizing your Group Policy, as well as better third party firewalling and endpoint management tools, Windows Firewall is not necessary, however in some cases is still enabled. That's why I included the additional lines. You can still leave them commented out, or remove them entirely if they are not necessary. 
+# !NOTE == I also included some scripting for Microsofts Sysinternals PSexec. 
+
+The reason why it's not included is because in some strict environments, you need to make sure to get your permissions and blesssings before use ::i.e. - Good security practice::. The reason for the other two lines is to turn off the firewall. TURNING OFF THE FIREWALL ::had to cap it, just so ya know::, is most enterprise environments, if you are utilizing your Group Policy, as well as better third party firewalling and endpoint management tools, Windows Firewall is not necessary, however in some cases is still enabled. That's why I included the additional lines. You can still leave them commented out, or remove them entirely if they are not necessary. 
 If you create a folder and drop this script, as well as the latest psexec, and remove the ##'s in front of the "for each" and final "}", it will forcibly enable PSRemoting so that you can run the script without all the red ERRRRs. ::also you can silence them easy as well:: 
 
 To get the latest psexec:
