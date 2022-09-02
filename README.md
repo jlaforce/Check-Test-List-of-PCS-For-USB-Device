@@ -1,7 +1,8 @@
 # Check-Text-List-of-PCS-For-USB-Device
 This script uses a selected Text file to use CIM to query Multiple PCs in the effort to find a specific usb device that you name. SCCM is not always the most reliable, so I create this quick dirty report to tell me where stuff is. Especially when it "magically" moves around in an environment. You can pair it with other scripts of mine to "get the details". And figure out whom is the one buying lunch today, lol . I can also create a separate script to help you list the names of a specfic computer name. Just feel free to email me if you want want differrent mods for your environment.  Or fill out my contact form on https://jlaforce.me and I'll get back to ya. ::If you ask me, I'll more than likely add it to my blog, I'll remove your details, but be wuuuurned.::
 
-# Requirements - you is admin, or you nicely ask an admin. Also, you need to have your ExecutionPolicy set from "Disabled" to .... something. 
+# Requirements - 
+you is admin, or you nicely ask an admin. Also, you need to have your ExecutionPolicy set from "Disabled" to .... something. 
 
 # !NOTE == I also included some scripting for Microsofts Sysinternals PSexec. 
 
